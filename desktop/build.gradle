@@ -32,6 +32,7 @@ eclipse {
         name = appName + "-desktop"
         //linkedResource name: 'assets', type: '2', location: 'PARENT-1-PROJECT_LOC/android/assets'
         linkedResource name: 'assets/res', type: '2', location: 'PARENT-1-PROJECT_LOC/core/res'
+        linkedResource name: 'assets/ui', type: '2', location: 'PARENT-1-PROJECT_LOC/android/assets/ui'
         
     }
 }

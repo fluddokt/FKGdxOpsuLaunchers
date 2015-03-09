@@ -87,7 +87,7 @@ eclipse {
     }
 
     project {
-         linkedResource name: 'assets/res', type: '2', location: 'PARENT-1-PROJECT_LOC/core/res'
+         //linkedResource name: 'assets/res', type: '2', location: 'PARENT-1-PROJECT_LOC/core/res'
         
         name = appName + "-android"
         natures 'com.android.ide.eclipse.adt.AndroidNature'
