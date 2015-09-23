@@ -1,4 +1,4 @@
-package com.mygdx.game.android;
+package fluddokt.opsu.android;
 
 import fluddokt.opsu.fake.GameOpsu;
 import android.os.Bundle;

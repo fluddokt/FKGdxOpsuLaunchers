@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mygdx.game.android"
+    package="fluddokt.opsu.android"
     android:versionCode="2"
-    android:versionName="0.9.0a" >
+    android:versionName="0.12.0a" >
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="20" />
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="22" />
+	<uses-feature android:glEsVersion="0x00020000" android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -15,7 +16,7 @@
         android:label="@string/app_name"
         android:theme="@style/GdxTheme" >
         <activity
-            android:name="com.mygdx.game.android.AndroidLauncher"
+            android:name="fluddokt.opsu.android.AndroidLauncher"
             android:label="@string/app_name" 
             android:screenOrientation="sensorLandscape"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
