@@ -1,12 +1,13 @@
 package fluddokt.opsu.android;
 
-import fluddokt.ex.DeviceInfo;
-import fluddokt.opsu.fake.GameOpsu;
 import android.os.Build;
 import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
+
+import fluddokt.ex.DeviceInfo;
+import fluddokt.opsu.fake.GameOpsu;
 
 public class AndroidLauncher extends AndroidApplication {
 	@Override
@@ -25,9 +26,8 @@ public class AndroidLauncher extends AndroidApplication {
 						+"\nMODEL: "+Build.MODEL
 						+"\nINCREMENTAL: "+Build.VERSION.INCREMENTAL
 						+"\nRELEASE: "+Build.VERSION.RELEASE
-						
+						+"\n"
 						;
-				
 			}
 		};
 		initialize(new GameOpsu(), config);
