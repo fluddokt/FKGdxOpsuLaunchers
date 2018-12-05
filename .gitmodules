@@ -1,6 +1,6 @@
 [submodule "core"]
 	path = core
-	url = https://github.com/UnderSampled/opsu
+	url = https://github.com/UnderSampled/opsu_core
 [submodule "jlayer/src"]
 	path = jlayer/src
 	url = https://github.com/fluddokt/JLayerOpsu.git
