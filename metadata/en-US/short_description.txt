@@ -1,0 +1,1 @@
+Open-source rhythm game supporting Osu! beatmaps
