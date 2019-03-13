@@ -6,7 +6,11 @@
 
 opsu! runs on Windows, OS X, and Linux.
 
-This is a fork of the [Android port](https://github.com/fluddokt/opsu) of [opsu!](https://github.com/itdelatrisu/opsu) for inclusion in the [F-Droid](https://f-droid.org) app store.
+This is a fork of the [original Android port](https://github.com/fluddokt/opsu) of [opsu!](https://github.com/itdelatrisu/opsu).
+
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="80">](https://f-droid.org/packages/fluddokt.opsu.android/)
 
 ## Building
 Before building, make sure that all of the git submodules are up to date:
