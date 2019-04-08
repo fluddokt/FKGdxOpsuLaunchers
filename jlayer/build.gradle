@@ -1,0 +1,10 @@
+sourceSets.main {
+    java.srcDirs = ['src/src']
+    resources {
+        srcDirs 'src/src'
+        include "**/*.ser"
+    }
+}
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
