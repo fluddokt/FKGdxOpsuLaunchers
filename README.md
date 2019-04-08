@@ -11,6 +11,7 @@ This is a fork of [opsu!](https://github.com/itdelatrisu/opsu).
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
      height="80">](https://f-droid.org/packages/fluddokt.opsu.android/)
+     
 F-Droid inclusion from [UnderSampled](https://github.com/UnderSampled/opsu)
 
 ## Building
